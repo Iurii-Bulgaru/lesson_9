@@ -240,6 +240,15 @@ letter-spacing: 0.15px;
      color: #fff;
      margin: 0px 0px 32px 0px;
 }
+.our-impact__title::before {
+     content: "";
+     width: 17px;
+     height: 16px;
+     background: url(../img/icons-block3/Mark.svg) center no-repeat; 
+     display: inline-block;
+     vertical-align: middle;
+     margin: 0px 16px 0px 0px;
+}
 .our-impact__subtitle {
      font-size: 36px;
      font-weight: 900;
