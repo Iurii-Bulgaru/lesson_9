@@ -88,7 +88,8 @@ h5 span {
 }
 .container {
      margin: 0 auto;
-     max-width: 1020px;
+     padding: 0 15px;
+     max-width: 1050px;
 }
 .block-title {
 }
@@ -182,11 +183,8 @@ letter-spacing: 0.15px;
      padding: 0px 15px;
      margin: 0px 0px 120px 0px;
 }
-.container {
-     max-width: 1020px;
-     margin: 0 auto;
-}
 .promice-body {
+     text-align: center;
 }
 .promice-card {
      display: inline-block;
@@ -196,6 +194,7 @@ letter-spacing: 0.15px;
      margin: 0px 23px 0px 0px;
 }
 .promice__content {
+     text-align: left;
      max-width: 235px;
      display: inline-block;
      vertical-align: top;
@@ -221,10 +220,129 @@ letter-spacing: 0.15px;
      color: #000000;
 }
 /* OUR IMPACT===================================================== */
-.block-footer p{
-     margin-right: 50px;
+.our-impact {
+     font-size: 0;
+     background-color: #29C3BE;
+}
+.our-impact-content {
+}
+.our-impact-title {
+     max-width: 411px;
      display: inline-block;
+     margin: 0px 0px 80px 0px;
+     padding: 112px 0px 0px 0px;
+}
+.our-impact__title {
+     font-size: 12px;
+     font-weight: 700;
+     line-height: 24px;
+     letter-spacing: 2.5px;
+     color: #fff;
+     margin: 0px 0px 32px 0px;
+}
+.our-impact__subtitle {
+     font-size: 36px;
+     font-weight: 900;
+     line-height: 42px;
+     letter-spacing: 0px;
+     color: #fff;
+     margin: 0px 0px 32px 0px;
+}
+.our-impact-image {
+     display: inline-block;
+     max-width: 498px;
+     vertical-align: top;
+}
+.our-impact-image .imgage-bg {
+     vertical-align: top;
+     padding: 0px 0px 0px 11px;
+}
+.our-impact-image .imgage-dog {
+     vertical-align: top;
+     border-radius: 40px;
+     margin: -388px 0px 0px 111px;
+}
+.our-impact-cards {
+     text-align: center;
+     margin: 0px 0px 50px 0px;
+}
+.card {
+     display: inline-block;
+     max-width: 237px;
+     width: 25%;
+}
+.card:not(:last-child) {
+     margin: 0px 24px 30px 0px;
+}
+.card__image {
+     display: inline-block;
+     margin: 0px 11px 0px 0px;
+}
+.card__image-body {
+     display: inline-block;
+     vertical-align: top;
+     padding: 4px 0px 0px 0px;
+}
+.card__title {
+     font-size: 36px;
+     font-weight: 900;
+     line-height: 42px;
+     letter-spacing: 0px;
+     color: #fff;
+     margin: 0px 0px 3px 0px;
+}
+.card__text {
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 24px;
+     letter-spacing: 0.15px;
+     color: #fff;
+}
+.our-impact-footer {
+     background-color: #5D62B5;
+     padding: 43px 76px 43px 70px;
+     border-radius: 20px;
+     margin: 0px 0px 0px 0px;
+     transform: translateY(50%);
+}
+.our-impact-footer__text {
+     font-size: 24px;
+     font-weight: 900;
+     line-height: 30px;
+     color: #fff;
+     display: inline-block;
+     max-width: 562px;
+     vertical-align: middle;
+     margin: 0px 102px 20px 0px;
+     width: 100%;
+}
+.our-impact-footer__button {
+     color: #fff;
+     font-size: 12px;
+     max-width: 210px;
+     font-weight: 700;
+     line-height: 24px;
+     border-radius: 8px;
+     text-align: center;
+     display: inline-block;
+     letter-spacing: 0.15px;
+     background-color: #F2726F;
+     padding: 12px 40px 12px 40px;
+     box-shadow: 5px 5px 10px rgb(41, 194, 189, 0.5);
+}
+.our-impact-footer__button:hover {
+     box-shadow: 5px 5px 10px rgb(41, 194, 189);
+     background-color: #f35e5c;
+}
+/* FOOTER========================================== */
+footer{
+     background-color: #000000;
+     text-align: center;
 }
 .block-footer {
-     text-align: center;
+     padding: 150px 0px 50px 0px;
+}
+footer p {
+     display: inline-block;
+
 }
